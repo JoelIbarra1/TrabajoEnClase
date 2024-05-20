@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabajoEnClase.AboutPage"
+             Title="AboutPage">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <Image Source="hola.png"
+                   SemanticProperties.Description="The dot net bot waving hello!"
+                   HeightRequest="64" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Nombre: " VerticalOptions="End" />
+            <Label FontSize="22" Text="Joel Ibarra" VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Label FontSize="22" FontAttributes="Bold" Text="Materia: " VerticalOptions="End" />
+            <Label FontSize="22" Text="Programación IV" VerticalOptions="End" />
+        </HorizontalStackLayout>
+
+        <Label Text="SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU" />
+        <Button Text="SI" Clicked="LearnMore_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
