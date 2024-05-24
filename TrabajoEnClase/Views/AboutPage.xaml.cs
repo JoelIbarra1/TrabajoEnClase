@@ -1,4 +1,4 @@
-namespace TrabajoEnClase;
+namespace TrabajoEnClase.Views;
 
 public partial class AboutPage : ContentPage
 {
